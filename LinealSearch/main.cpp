@@ -22,7 +22,7 @@ int Linealsearch(int A[],int data)
 int main()
 {
     //Read  a numbers in the console
-    cout<<"Defina el tamaño del arreglo"<<endl;
+    cout<<"Defina el tamaÃ±o del arreglo"<<endl;
     int n;
     cin>>n;
     int array[n];
@@ -39,7 +39,7 @@ int main()
     int number_to_search;
     cin>>number_to_search;
 
-    //Call the function insertionSort
+    //Call the function Linealsearch
     int result=Linealsearch(array,number_to_search);
 
     cout<<"Ingrese el numero a buscar"<<endl;
